@@ -1,61 +1,47 @@
-header {
-  width: 700px;
-  height: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
-  background: black;
+div{
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
   
-  }
+  position: relative;
+}
 
 #picturetext {
   position: absolute;
-  top: 88%;
-  left: 200px;
-  font-size: 37px;
+  top: 58%;
+  left: 250px;
+  font-size: 32px;
   font-family: 'Abril Fatface', cursive;
 }
 
-#picturetext2, #picturetext3 {
+#picturetext2 {
   position: absolute;
-  top: 90%;
-  left: 200px;
-  font-size: 70px;
+  top: 57%;
+  left: 250px;
+  font-size: 65px;
   font-family: 'Abril Fatface', cursive;
-}
-
-#picturetext3 {
-  top: 105%;
 }
 
 img {
-  object-fit: cover;
-  max-width: 100%;
-  max-height: 300px;
+  max-width:90%;
+  height:auto;
 }
 
-.column, .firstp {
+section {
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right:230px;
   font-family: 'Josefin Sans', sans-serif;
   line-height: 1.5;
   font-size:15px;
   color: #222;
   letter-spacing: 0px;
-  flex: 50%;
-  margin-bottom: 10px;
-}
-
-.pict, .quote {
-  font-family: 'Josefin Sans', sans-serif;
-  line-height: 1.5;
-  font-size:15px;
-  color: #222;
-  letter-spacing: 0px;
-  display: flex;
-  flex: 30%;
-  margin-bottom: 100px;
-  margin-right: 20px;
 }
 
 h1,h2, blockquote {
+  margin-left: 250px;
+  margin-right:250px;
   font-family: 'Abril Fatface', cursive;
   color: #222;
 }
@@ -63,7 +49,11 @@ h1,h2, blockquote {
 blockquote {
   font-family: 'Abril Fatface', cursive;
   color: white;
+  margin: 10px;
   font-size:36px;
+  padding:10px;
+  text-align: center;
+  display: inline;
 }
 
 blockquote::before {
@@ -74,7 +64,12 @@ blockquote::before {
 
 .quote {
   background: #222;
+  display: flex;
+  
+  margin-left: 220px;
+  margin-right:200px;
   padding: 1px;
+  postion: relative;
 }
 
 h3 {
@@ -113,11 +108,3 @@ ul {
 .firstp{
   font-size: 18px;
 }
-
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  width: 700px;
-  margin-left: 100px;
-  margin-right: 100px;
-   }
